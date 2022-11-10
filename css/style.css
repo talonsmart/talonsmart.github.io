@@ -323,6 +323,7 @@ ul.social_icon_top li a:hover {
      background-color: #fff;
      height: 100px;
      padding: 25px 25px;
+     border-radius: 0px 0px 10px 10px;
 }
 
 .logo {
@@ -346,19 +347,21 @@ ul.social_icon_top li a:hover {
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 15px 25px;
-     color: #161825;
+     padding: 10px 15px;
+     color: #fe9901;
      font-size: 16px;
      line-height: 20px;
      font-weight: 500;
-     text-transform: uppercase;
+     border: 2px solid #fe9901;
+     border-radius: 6px;
+     margin-right: 5px;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     background: #fe9901;
      color: #fff;
      border-radius: 6px;
+     box-shadow: inset 0 0 0 24px #fe9901;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
