@@ -259,7 +259,7 @@ button {
 }
 
 .header_top {
-     background-color: #161825;
+     background-color: #1e1e1e;
      padding: 12px 0;
      padding: 13px 0;
 }
@@ -286,7 +286,7 @@ ul.contat_infoma li a {
 }
 
 ul.contat_infoma li a:hover {
-     color: #fe9901;
+     color: #f9322c;
 }
 
 ul.social_icon {
@@ -316,7 +316,7 @@ ul.social_icon_top li a {
 }
 
 ul.social_icon_top li a:hover {
-     color: #fe9901;
+     color: #f9322c;
 }
 
 .header_bottom {
@@ -347,28 +347,30 @@ ul.social_icon_top li a:hover {
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
+     display: inline-block;
      padding: 10px 15px;
-     color: #fe9901;
+     color: #f9322c;
      font-size: 16px;
      line-height: 20px;
      font-weight: 500;
-     border: 2px solid #fe9901;
+     border: 2px solid #f9322c;
      border-radius: 6px;
      margin-right: 5px;
+     margin-bottom: 5px;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
      color: #fff;
      border-radius: 6px;
-     box-shadow: inset 0 0 0 24px #fe9901;
+     box-shadow: inset 0 0 0 24px #f9322c;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     background: #fe9901;
+     background: #f9322c;
      color: #fff;
      border-radius: 6px;
 }
@@ -436,7 +438,7 @@ ul.search li a:hover {
      text-transform: uppercase;
      font-weight: normal;
      max-width: 278px;
-     background: #fc9701;
+     background: #f9322c;
 }
 
 .build_box .conatct_btn:hover {
@@ -515,7 +517,7 @@ ul.search li a:hover {
      max-width: 186px;
      text-align: center;
      display: inline-block;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
      font-weight: 500;
      border-radius: 5px;
      height: 60px;
@@ -523,9 +525,9 @@ ul.search li a:hover {
 }
 
 .read_more:hover {
-     background: #f4a111;
+     background: #f9322c;
      color: #fff;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
 }
 
 
@@ -539,11 +541,11 @@ ul.search li a:hover {
      padding: 40px 0 25px 0;
      background: #fff;
      box-shadow: 0 0 250px rgba(3, 3, 3, 0.16);
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
 }
 
 .const span {
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
      display: block;
      font-size: 16px;
      font-weight: 700;
@@ -556,13 +558,13 @@ ul.search li a:hover {
 
 #text_hover:hover.const {
      background-color: #f89501;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
      cursor: pointer;
 }
 
 #text_hover:hover.const span {
      color: #fff;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
 }
 
 
@@ -629,6 +631,7 @@ ul.search li a:hover {
 
 .project_img figure img {
      width: 100%;
+     border-radius: 15px;
 }
 
 .project_text {
@@ -638,7 +641,7 @@ ul.search li a:hover {
      overflow: hidden;
      padding: 20px 20px 20px 20px;
      margin-right: 15px;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
 }
 
 
@@ -659,17 +662,17 @@ ul.search li a:hover {
      cursor: pointer;
      background-color: #fffffff2;
      height: 303px;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
 }
 
 #pro_ho:hover.project_text h3 {
      color: #1b1a1a;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
      padding-top: 20px;
 }
 
 .project_text h3 {
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
      color: #fff;
      text-align: left;
      display: block;
@@ -704,7 +707,7 @@ ul.search li a:hover {
 #proj .carousel-control-next:hover,
 #proj .carousel-control-prev:focus,
 #proj .carousel-control-next:focus {
-     background: #fe9901;
+     background: #f9322c;
      color: #fff;
 }
 
@@ -763,13 +766,13 @@ ul.search li a:hover {
 }
 
 #awa_ho:hover.award_icon i {
-     background-color: #fe9901;
-     transition: ease-in all 0.5s;
+     background-color: #f9322c;
+     transition: ease-in all 0.2s;
 }
 
 .award_icon i {
      background-color: #fff;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
      width: 147px;
      height: 129px;
      display: flex;
@@ -827,7 +830,7 @@ ul.search li a:hover {
 }
 
 .social_icon_main {
-     background-color: #fe9901;
+     background-color: #f9322c;
      border-radius: 5px;
      padding: 20px;
 }
@@ -852,7 +855,7 @@ ul.social_icon_staff li a {
      font-size: 22px;
      border-radius: 30px;
      margin: 0 1px;
-     color: #fe9901;
+     color: #f9322c;
      background: #fff;
      width: 40px;
      height: 40px;
@@ -918,7 +921,7 @@ ul.social_icon_staff li a:hover {
 
 .main_form .send_btn {
      font-size: 20px;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
      background-color: #1b1b1a;
      text-transform: uppercase;
      color: #fff;
@@ -931,8 +934,8 @@ ul.social_icon_staff li a:hover {
 }
 
 .main_form .send_btn:hover {
-     background-color: #fe9901;
-     transition: ease-in all 0.5s;
+     background-color: #f9322c;
+     transition: ease-in all 0.2s;
      color: #fff;
 }
 
@@ -978,7 +981,7 @@ ul.social_icon_staff li a:hover {
      position: inherit;
      padding: 0px 50px 80px 50px;
      text-align: left;
-     border-top: #fe9901 solid 111px;
+     border-top: #f9322c solid 111px;
      border-radius: 10px;
 }
 
@@ -1038,7 +1041,7 @@ ul.social_icon_staff li a:hover {
 #testimo .carousel-control-next:hover,
 #testimo .carousel-control-prev:focus,
 #testimo .carousel-control-next:focus {
-     background: #fe9901;
+     background: #f9322c;
      color: #fff;
 }
 
@@ -1138,7 +1141,7 @@ ul.link_menu li a {
 }
 
 ul.link_menu li a:hover {
-     color: #f4a111;
+     color: #f9322c;
 }
 
 ul.insta {
@@ -1170,7 +1173,7 @@ ul.insta li {
 
 .sub_btn {
      font-size: 16px;
-     transition: ease-in all 0.5s;
+     transition: ease-in all 0.2s;
      background-color: transparent;
      color: #fff;
      padding: 5px 0px;
@@ -1181,8 +1184,8 @@ ul.insta li {
 }
 
 .sub_btn:hover {
-     background-color: #f4a111;
-     transition: ease-in all 0.5s;
+     background-color: #f9322c;
+     transition: ease-in all 0.2s;
      color: #fff;
 }
 
@@ -1215,7 +1218,7 @@ ul.insta li {
 }
 
 .copyright a:hover {
-     color: #f4a111;
+     color: #f9322c;
 }
 
 
@@ -1230,7 +1233,7 @@ ul.insta li {
 }
 
 .back_re {
-     background-color: #c97a05;
+     background-color: #f9322c;
 }
 
 .back_re .title {
@@ -1271,62 +1274,3 @@ ul.insta li {
      /* Safari 4.0 - 8.0 */
      animation: myfirst 15s linear 0s infinite alternate;
 }
-
-
-/* Safari 4.0 - 8.0 */
-
-@-webkit-keyframes myfirst {
-     0% {
-          left: 0px;
-          top: 0;
-     }
-     20% {
-          left: 10%;
-          top: 0;
-     }
-     40% {
-          left: 20%;
-          top: 0;
-     }
-     60% {
-          left: 30%;
-          top: 0;
-     }
-     80% {
-          left: 40%;
-          top: 0;
-     }
-     100% {
-          left: 50%;
-          top: 0;
-          ;
-     }
-     /* Standard syntax */
-     @keyframes myfirst {
-          0% {
-               left: 0px;
-               top: 0;
-          }
-          20% {
-               left: 10%;
-               top: 0;
-          }
-          40% {
-               left: 20%;
-               top: 0;
-          }
-          60% {
-               left: 30%;
-               top: 0;
-          }
-          80% {
-               left: 40%;
-               top: 0;
-          }
-          100% {
-               left: 50%;
-               top: 0;
-               transform: rotateY(180deg)
-          }
-     }
-     /* end truck*/
