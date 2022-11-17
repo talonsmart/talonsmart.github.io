@@ -398,6 +398,7 @@ ul.search li a:hover {
      background: url(../images/banner2.jpg);
      background-size: 100% 100%;
      background-position: center;
+     background-size: auto;
      background-repeat: no-repeat;
 }
 
@@ -1273,4 +1274,10 @@ ul.insta li {
      -webkit-animation: myfirst 15s linear 0s infinite alternate;
      /* Safari 4.0 - 8.0 */
      animation: myfirst 15s linear 0s infinite alternate;
+}
+
+@media (min-width: 700px) {
+     .award_icon {
+          width: 15%;
+     }     
 }
