@@ -37,6 +37,27 @@ function getURL() { window.location.href; } var protocol = location.protocol; $.
      $('#blogCarousel').carousel({
         interval: 5000
      });
-
-
 });
+
+/* my */
+// make it so this only runs on the blog page
+function handleBlogDate() {
+    const blogDates = document.querySelectorAll(".blog-date");
+
+
+    for (let i = 0; i < blogDates.length; i++) {
+        const sd = new Date(); // set a date
+
+        // subtract one day
+        
+        // subtract a random amount of hours
+       
+        // subtract a random amount of minutes
+       
+        // convert it to strftime format
+
+        blogDates[i].textContent = finalDate
+    };
+};
+
+handleBlogDate()

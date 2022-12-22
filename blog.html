@@ -5,11 +5,10 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <title>Contact | Talon Smart</title>
+      <title>Blog | Talon Smart</title>
       <meta name="description" content="Talon Smart personal portfolio website.">
       <meta name="author" content="Talon Smart">
       <meta name="keywords" content="web developer, web dev, web developer portfolio, python programmer, javascript programmer, js programmer, django programmer, flask programmer, full stack programmer, full stack developer, front end developer">
-
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/responsive.css">
@@ -41,7 +40,7 @@
                      </div>
                      <div class="col-md-3">
                         <ul class="contat_infoma text_align_right">
-                           <li><a href="Javascript:void(0)"> <i class="fa fa-envelope" aria-hidden="true"></i> talonsmart2000@gmail.com</a></li>
+                           <li><a href="Javascript:void(0)"> <i class="fa fa-envelope" aria-hidden="true"></i>talonsmart2000@gmail.com</a></li>
                         </ul>
                      </div>
                   </div>
@@ -77,11 +76,11 @@
                                        <li class="nav-item">
                                           <a class="nav-link" href="project.html"><i class="fa-solid fa-pencil"></i> Projects</a>
                                        </li>
-                                       <li class="nav-item">
+                                       <li class="nav-item active">
                                           <a class="nav-link" href="blog.html"><i class="fa-solid fa-blog"></i> Blog</a>
                                        </li>
-                                       <li class="nav-item active">
-                                          <a class="nav-link active" href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
+                                       <li class="nav-item">
+                                          <a class="nav-link" href="contact.html"><i class="fa-solid fa-envelope"></i> Contact</a>
                                        </li>
                                     </ul>
                                  </div>
@@ -99,47 +98,42 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="title">
-                     <h2>Contact</h2>
+                     <h2>Blog</h2>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!--  contact -->
-      <div class="contact">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6 padding_right0">
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Name" type="type" name="Name"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone" type="type" name="Phone">
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
-                        </div>
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="blog-button">Send Message</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-               <div class="col-md-6 padding_left0">
-                  <div class="map_main">
-                     <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="463" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
-                     </div>
+      <div class="about">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-md-7">
+                  <div class="titlepage">
+                     <h2>Blog</h2>
+                     <span>Welcome to my programming blog! It contains tutorials on learning to code and is uploaded regularly.</span>
+
+                     <section class="blogs">
+                         <div class="blog">
+                             <p class="blog-title">How to Extend Prototypes in TypeScript</p>
+                             <p class="blog-content">By extending prototypes, you can successfully implement new functionality into your objects.</p>
+
+                             <a href="blog2.html" target="_blank" rel="noopener noreferrer"><button class="blog-button">Read More...</button></a>
+                         </div>
+
+                         <div class="blog">
+                             <p class="blog-title">Learn To Code Quicker With These 7 Tricks</p>
+                             <p class="blog-content">This is how you learn to code quicker and more effectively.</p>
+
+                             <a href="blog1.html" target="_blank" rel="noopener noreferrer"><button class="blog-button">Read More...</button></a>
+                         </div>
+                     </section>
                   </div>
                </div>
             </div>
          </div>
       </div>
+      <!-- end about -->
+      <!--  footer -->
       <footer>
          <div class="footer">
             <div class="container">
@@ -148,6 +142,7 @@
                     <h2 style="color: white; font-weight: bold">Talon's Portfolio</h2>
                     <p class="many">Thank you for checking out my portfolio.</p>
                   </div>
+
                   <div class="col-lg-2 offset-lg-1 col-md-6">
                      <h3>QUICK LINKS</h3>
                      <ul class="link_menu">
@@ -165,6 +160,7 @@
       <script src="js/bootstrap.bundle.min.js"></script>
       <script src="js/jquery-3.0.0.min.js"></script>
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/strftime-min.js"></script>
       <script src="js/custom.js"></script>
    </body>
 </html>
