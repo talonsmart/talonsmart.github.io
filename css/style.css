@@ -499,10 +499,9 @@ ul.search li a:hover {
 }
 
 .titlepage span {
-     font-size: 17px;
-     line-height: 25px;
+     font-size: 20px;
+     line-height: 30px;
      color: #0a0a0a;
-     padding-top: 30px;
      display: block;
 }
 
@@ -592,8 +591,7 @@ ul.search li a:hover {
 
 .about .titlepage span {
      font-family: 'Raleway', sans-serif;
-     padding-bottom: 60px;
-     padding-top: 40px;
+     margin-top: 30px;
 }
 
 .about_img {
@@ -1370,13 +1368,21 @@ ul.insta li {
 
 .about-title-item {
     font-size: 40px !important;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .about-title-small {
     font-size: 30px !important;
     margin: 15px 0px !important;
 }
-
+.box-item {
+    padding: 15px;
+    border: 1px solid #eaeaea;
+    box-shadow: 1px 1px 3px rgba(0,0,0,25%);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 
 @keyframes animateUp {
     100% {
@@ -1393,3 +1399,4 @@ ul.insta li {
         transform: translateY(-15px);
     }
 }
+
