@@ -499,7 +499,7 @@ h6 {
     .titlepage h2 {
         font-size: 72px;
         color: #1c1c1c;
-        line-height: 40px;
+        line-height: 70px;
         font-weight: 700;
         padding-bottom: 25px;
     }
@@ -681,6 +681,11 @@ h6 {
     padding-top: 20px;
 }
 
+#pro_ho:hover.project_text p {
+    opacity: 100;
+    color: #000;
+}
+
 .project_text h3 {
     transition: ease-in all 200ms;
     color: #fff;
@@ -693,7 +698,7 @@ h6 {
 }
 
 .project_text p {
-    color: #1b1a1a;
+    opacity: 0;
     font-size: 17px;
     text-align: left;
     line-height: 28px;
@@ -1401,6 +1406,10 @@ ul.insta li {
     font-size: 20px;
     font-weight: bold;
 
+}
+
+.project {
+    margin-bottom: 2px !important;
 }
 
 @keyframes animateUp {
